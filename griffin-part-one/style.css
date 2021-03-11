@@ -1,0 +1,114 @@
+
+.child-element {
+    font-family: 'bungee', cursive;
+    font-size: 20px;
+    margin: 15px 0px;
+    padding: 5px;
+    color: #7944e6;
+    text-decoration: none;
+}
+
+.child-element:hover {
+    color: #10fdff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    position: relative;
+    left: 500px;
+}
+
+.parent-container-flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.food-truck {
+    margin: 10px auto 20px;
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'bungee', cursive;
+    font-size: 30px;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'bungee', cursive;
+    font-size: 20px;
+    padding: 0px;
+    margin-left: 20px;
+}
+main {
+    background-color: #ff00ff;
+}
+
+.coffee_section {
+    border: #7944e6;
+    border-radius: 2px;
+    border-style: solid;
+    margin: 20px 300px 20px;
+    text-align: center;
+}
+
+.coffee-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.cream_section {
+    border: #7944e6;
+    border-radius: 2px;
+    border-style: solid;
+    margin: 20px 300px 20px;
+    text-align: center;
+}
+
+.cream-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.cookies_section {
+    border: #7944e6;
+    border-radius: 2px;
+    border-style: solid;
+    margin: 20px 300px 20px;
+    text-align: center;
+}
+
+.cookie-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+@media screen (min-width: 500px) {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        width: 50%;
+    }
+}
+
+@media screen (min-width: 768px) {
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li {
+        width: auto;
+    }
+}
